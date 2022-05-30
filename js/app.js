@@ -1,3 +1,6 @@
+alert('Team Apollo, The god of Sun');
+
+
 // Question 1
 
 let cardTitle = document.querySelector('.team-name');
@@ -52,15 +55,15 @@ console.log(remainderOfDivision(22, 5));
 
 // Question 6
 
-almightyFormla = (a, b, c) => {
 
-    let firstRoot = Math.floor(((-1 * b + Math.sqrt(b**2 - 4*a*c))/2*a));
-    let secondRoot = Math.floor(((-1 * b - Math.sqrt(b**2 - 4*a*c))/2*a));
-
-    return ('The first root of te quandratic equation is ' + firstRoot + ' while the second root of the quandratic equation is ' + secondRoot);
+const quadFunction = (a, b, c) => {
+  let root = Math.pow(b, 2) - (4 * a * c);
+  let x1 = (-1 * b + Math.sqrt(root)) / 2 * a;
+  let x2 = (-1 * b - Math.sqrt(root)) / 2 * a;
+  return x1 + " and " + x2;
 }
-console.log(almightyFormla(1,-8,5));
 
+console.log(quadFunction(1, 2, -1));
 
 
 // Question 7
