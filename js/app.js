@@ -10,7 +10,13 @@ teamNameStyle = document.querySelector('.team-name').style.color="orange";
 
 // Question 2
 
-let groupNames = ['Omokaro Loveth', 'Stanley Chijioke', 'Shodipe Oladele', 'Ifeoma Okafor', 'Avwunudiogba Ogaga', 'Kasie Ugwu', 'Anyanwu Chukwuemeka']
+let groupNames = ['Omokaro Loveth', 
+                  'Stanley Chijioke', 
+                  'Shodipe Oladele', 
+                  'Ifeoma Okafor', 
+                  'Avwunudiogba Ogaga', 
+                  'Kasie Ugwu', 
+                  'Anyanwu Chukwuemeka']
 console.log(groupNames[1]);
 
 
@@ -52,9 +58,7 @@ remainderOfDivision = (firstNumber, secondNumber) => {
 console.log(remainderOfDivision(22, 5));
 
 
-
 // Question 6
-
 
 const quadFunction = (a, b, c) => {
   let root = Math.pow(b, 2) - (4 * a * c);
@@ -67,7 +71,6 @@ console.log(quadFunction(1, 2, -1));
 
 
 // Question 7
-
 
 const myNoun = "dog";
 const myAdjective = "big";
@@ -86,8 +89,6 @@ areaOfCircle = (radius) => {
     return solution;
 }
 console.log('The area of the circle is ' + areaOfCircle(9));
-
-
 
 
 // Question 9
@@ -109,10 +110,9 @@ let four = 4;
 console.log(ten % four);
 
 
-
 //  Question 11
 
-`For test data 1`
+//  For test data 1
 
 let meritMass1 = 78;
 let meritHeight1 = 1.69;
@@ -126,7 +126,6 @@ console.log(nutjobBMI1);
 
 let meritHigherBMI1 = (meritBmi1 > nutjobBmi1);
 console.log('Is Merit BMI higher? ' + meritHigherBMI1)
-
 
 
 // For test data 2
