@@ -43,11 +43,6 @@ body {
   border-radius: 5px;
 }
 
-.card:hover .card-img img {
-  width: 100%;
-  border-radius: 5px;
-}
-
 .card-text {
   padding: 15px;
 }
