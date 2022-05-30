@@ -1,4 +1,4 @@
-alert('Team Apollo, The god of Sun');
+alert('We are Team Apollo, The god of Sun');
 
 
 // Question 1
