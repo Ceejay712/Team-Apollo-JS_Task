@@ -25,7 +25,6 @@ body {
 
 .card:hover {
   background-color: #664a0d;
-  transform: translateX(100px);
   color: white;
   border: 2px double white;
 }
